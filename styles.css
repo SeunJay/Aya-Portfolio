@@ -4,11 +4,13 @@
 
 html {
   font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 /* Header Styles */
@@ -35,6 +37,10 @@ body {
   display: flex;
   list-style: none;
   width: 32%;
+}
+
+.nav-link {
+  text-decoration: none;
 }
 
 .link {
@@ -340,4 +346,21 @@ body {
 .technology__cover {
   width: 5rem;
   margin-inline: auto;
+}
+
+#home {
+  height: 100vh;
+}
+
+#about {
+  height: 70vh;
+}
+
+#portfolio {
+  height: 70vh;
+}
+
+
+#experience {
+  height: 90vh;
 }
