@@ -160,7 +160,7 @@ body {
 }
 
 .item-link {
-  display: flex;
+  display: block;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
@@ -203,4 +203,10 @@ body {
 .about-info {
   font-size: 1.25rem /* 20px */;
   line-height: 1.75rem;
+}
+
+.icon {
+  font-size: 20px;
+  margin-left: auto;
+  display: block;
 }
