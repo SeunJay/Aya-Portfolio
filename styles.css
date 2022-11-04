@@ -288,3 +288,56 @@ body {
 .project__link:hover {
   transform: scale(1.1);
 }
+
+.experience {
+  width: 100%;
+  height: 90vh;
+  color: #fff;
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #100f0f,
+    #1b1918,
+    #232220,
+    #2b2c29
+  );
+  padding: 2rem;
+}
+
+.experience__container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 5rem auto;
+}
+
+.experience-header {
+  font-size: 2.25rem /* 36px */;
+  line-height: 2.5rem /* 40px */;
+  font-weight: 700;
+  display: inline;
+  border-bottom-width: 4px;
+  border-bottom: 1px solid gray;
+}
+
+.technology__gallery {
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  padding: 0 3rem;
+}
+
+.technology {
+  border-radius: 0.5rem;
+}
+
+.technology:hover {
+  transform: scale(1.2);
+}
+
+.technology__cover {
+  width: 5rem;
+  margin-inline: auto;
+}
